@@ -1,0 +1,1 @@
+latexmk -xelatex --shell-escape --enable-write18 -recorder -file-line-error -output-directory=build -aux-directory=build -interaction=batchmode -synctex=1 main.tex
